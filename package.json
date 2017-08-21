@@ -1,9 +1,10 @@
 {
-  "name": "sequelize-auto",
-  "version": "0.4.28",
-  "description": "Automatically generate bare sequelize models from your database.",
+  "name": "grao-auto",
+  "version": "0.0.1",
+  "description": "Automatically generate bare graojs models from your database.",
   "main": "index",
   "keywords": [
+    "graojs",
     "mysql",
     "postgres",
     "sequelize",
@@ -45,7 +46,7 @@
   "engines": {
     "node": ">=0.10"
   },
-  "author": "Daniel Durante <me@danieldurante.com>",
+  "author": "Dani <me@danieldurante.com>",
   "license": "MIT",
   "dependencies": {
     "async": "^2.1.5",
