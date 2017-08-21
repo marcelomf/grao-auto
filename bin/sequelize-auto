@@ -86,7 +86,7 @@ function getDefaultPort(dialect) {
 
 var auto = new sequelizeAuto(argv.d, argv.u, (!! argv.x ? ('' + argv.x) : null), configFile);
 
-auto.run(function (err) {
+auto.runGrao(function (err) {
   if (err) throw err;
   console.log('Done!');
 });
