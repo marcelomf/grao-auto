@@ -86,7 +86,7 @@ function getDefaultPort(dialect) {
 
 var auto = new sequelizeAuto(argv.d, argv.u, (!! argv.x ? ('' + argv.x) : null), configFile);
 
-auto.runGrao(function (err) {
+auto.runGraphqlSchemas(function (err) {
   if (err) throw err;
   console.log('Done!');
 });
